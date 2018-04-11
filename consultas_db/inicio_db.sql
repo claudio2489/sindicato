@@ -95,7 +95,7 @@ CREATE TABLE proveedores(
     calle varchar(80),
     altura int(8),
     localidad varchar(50),
-		telefono varchar(20),
+	telefono varchar(20),
     celular varchar(20),
     email varchar(80),
     cuit bigint(11) UNSIGNED UNIQUE KEY,

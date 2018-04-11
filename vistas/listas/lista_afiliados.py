@@ -33,7 +33,7 @@ class ListaAfiliados(QtWidgets.QWidget):
 # Acá llamo la función __init__() que está en ModeloAfiliado, es la instanciación de la clase en un objeto
 # Yo acá quiero los campos que voy a mostrar nomás
 		self.model = ModeloAfiliado(
-			propiedades = ['legajo', 'apellido', 'nombre', 'dni', 'calle', 'altura', 'piso', 'depto', 'localidad', 'telefono_particular'])
+			propiedades = ['legajo', 'apellido', 'nombre', 'dni', 'tipo_afiliado', 'calle', 'altura', 'localidad', 'telefono_particular', 'lugar_trabajo','fecha_ingreso',])
 
 		#variables que alojan las clases que se encuentran dentro del archivo .py. (nombredelArchivo.nombredelaClase)
 		self.widgetdelafiliado = detalle_afiliados.DetalleAfiliados()

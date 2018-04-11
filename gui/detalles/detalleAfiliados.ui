@@ -901,7 +901,7 @@ color: #000000;
       <string notr="true"/>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>0</number>
      </property>
      <property name="iconSize">
       <size>
@@ -933,7 +933,91 @@ color: #000000;
        <string>Datos del Afiliado</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_21">
-       <item row="0" column="0" rowspan="3" colspan="2">
+       <item row="3" column="3">
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="5">
+        <widget class="QPushButton" name="btn_guardar_afiliado">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton_4{
+background-color:#37760D;
+color: #FFFFFF;
+}
+
+#pushButton_4:hover{
+background-color:#37861D;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Guardar (Ctrl + G)</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../iconos/apply.ico</normaloff>../iconos/apply.ico</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Eliminar Afiliado</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../iconos/delete.ico</normaloff>../iconos/delete.ico</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="3" colspan="6">
         <layout class="QGridLayout" name="gridLayout_20">
          <property name="leftMargin">
           <number>9</number>
@@ -1229,6 +1313,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>11</number>
+              </property>
              </widget>
             </item>
             <item row="1" column="10" colspan="3">
@@ -1246,6 +1333,9 @@ color: #FFFFFF ;
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>8</number>
               </property>
              </widget>
             </item>
@@ -1337,6 +1427,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>99</number>
+              </property>
              </widget>
             </item>
             <item row="2" column="11" colspan="5">
@@ -1354,6 +1447,9 @@ color: #FFFFFF ;
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>99</number>
               </property>
              </widget>
             </item>
@@ -1588,6 +1684,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>8</number>
+              </property>
              </widget>
             </item>
             <item row="0" column="0">
@@ -1652,6 +1751,9 @@ background-color: #F0F5EF
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>20</number>
               </property>
              </widget>
             </item>
@@ -1743,6 +1845,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>20</number>
+              </property>
              </widget>
             </item>
             <item row="2" column="0">
@@ -1793,6 +1898,9 @@ color: #FFFFFF ;
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>20</number>
               </property>
              </widget>
             </item>
@@ -1847,6 +1955,9 @@ color: #FFFFFF ;
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>99</number>
               </property>
              </widget>
             </item>
@@ -2039,6 +2150,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>99</number>
+              </property>
              </widget>
             </item>
             <item row="2" column="2" colspan="2">
@@ -2095,6 +2209,9 @@ color: #FFFFFF ;
               </property>
               <property name="text">
                <string/>
+              </property>
+              <property name="maxLength">
+               <number>5</number>
               </property>
              </widget>
             </item>
@@ -2218,6 +2335,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>99</number>
+              </property>
              </widget>
             </item>
             <item row="1" column="2">
@@ -2272,6 +2392,9 @@ color: #FFFFFF ;
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>8</number>
+              </property>
              </widget>
             </item>
             <item row="1" column="5" colspan="2">
@@ -2325,6 +2448,9 @@ color: #FFFFFF ;
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>3</number>
               </property>
              </widget>
             </item>
@@ -2807,6 +2933,9 @@ background-color: #F0F5EF
                 <bold>true</bold>
                </font>
               </property>
+              <property name="maxLength">
+               <number>99</number>
+              </property>
              </widget>
             </item>
             <item row="5" column="0">
@@ -2943,6 +3072,9 @@ color: #FFFFFF ;
                 <pointsize>12</pointsize>
                </font>
               </property>
+              <property name="maxLength">
+               <number>3</number>
+              </property>
              </widget>
             </item>
             <item row="6" column="9">
@@ -3008,6 +3140,9 @@ color: #FFFFFF ;
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="maxLength">
+               <number>99</number>
               </property>
              </widget>
             </item>
@@ -3144,7 +3279,7 @@ color: #FFFFFF ;
          </item>
         </layout>
        </item>
-       <item row="3" column="0">
+       <item row="3" column="1" colspan="2">
         <spacer name="horizontalSpacer">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
@@ -3165,65 +3300,11 @@ color: #FFFFFF ;
          </property>
          <property name="sizeHint" stdset="0">
           <size>
-           <width>40</width>
+           <width>400</width>
            <height>20</height>
           </size>
          </property>
         </spacer>
-       </item>
-       <item row="3" column="1">
-        <widget class="QPushButton" name="btn_guardar_afiliado">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <family>Arial</family>
-           <pointsize>8</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">#pushButton_4{
-background-color:#37760D;
-color: #FFFFFF;
-}
-
-#pushButton_4:hover{
-background-color:#37861D;
-}
-</string>
-         </property>
-         <property name="text">
-          <string>Guardar (Ctrl + G)</string>
-         </property>
-         <property name="icon">
-          <iconset>
-           <normaloff>../iconos/apply.ico</normaloff>../iconos/apply.ico</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-         <property name="autoDefault">
-          <bool>true</bool>
-         </property>
-         <property name="default">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-        </widget>
        </item>
       </layout>
      </widget>
